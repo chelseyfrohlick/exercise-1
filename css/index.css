@@ -58,4 +58,51 @@ html {
   background-color: #FFF;
 }
 
+.icon-heart{
 
+	font-size: 10em;
+	text-align:center;
+	display:block;
+	color:#c1e1c9;
+	margin-left: -.3em;
+	padding: .5em;
+	transition: all 0.5s;
+}
+
+.icon-moon{
+
+	font-size: 10em;
+	text-align:center;
+	display:block;
+	color:#f9805c;
+	padding: .5em;
+	transition: all 0.5s;
+}
+
+.moon{
+	background-color: #b9a6c9;
+}
+
+.icon-flash{
+	font-size: 10em;
+	text-align:center;
+	display:block;
+	color:#b9a6c9;
+	padding: .5em;
+	transition: all 0.5s;
+
+}
+
+.flash{
+	background-color: #f9805c;
+}
+
+.icon-flash:hover, .icon-flash:active{
+  color: #f9805c;
+  background-color: #FFF;
+}
+
+.icon-moon:hover, .icon-moon:active{
+  color: #b9a6c9;
+  background-color: #FFF;
+}
