@@ -16,3 +16,46 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.icon-lock{
+
+	font-size: 10em;
+	text-align:center;
+	display:block;
+	color:#c1e1c9;
+	margin-left: -.3em;
+	padding: .5em;
+	transition: all 0.5s;
+}
+
+.lock{
+
+	background-color: #F08080;
+}
+
+.icon-eye-outline{
+
+	font-size: 10em;
+	text-align:center;
+	display:block;
+	padding: .5em;
+	color:#F08080;
+
+}
+
+.eye{
+
+	background-color: #c1e1c9;
+}
+
+.icon-lock:hover, .icon-lock:active{
+  color: #F08080;
+  background-color: #FFF;
+}
+
+.icon-eye-outline:hover, .icon-eye-outline:active{
+  color: #c1e1c9;
+  background-color: #FFF;
+}
+
+
